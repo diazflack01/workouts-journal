@@ -1,0 +1,55 @@
+body {
+    border: 1px solid blue;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    border: 1px solid blue;
+}
+
+li {
+    list-style: none;
+}
+
+.logs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logs ul {
+    margin: 5px;
+    padding: 2px;
+    width: 100px;
+    background: tomato;
+}
+
+.nav {
+    border: 1px solid green;
+}
+
+.nav ul {
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav ul li {
+    border: 1px solid red;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-gap: 2px;
+    border: 1px solid pink;
+}
+
+.summary {
+    border: 1px solid violet;
+}
+
+.logs {
+    border: 1px solid orange;
+}
